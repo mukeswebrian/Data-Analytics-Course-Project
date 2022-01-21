@@ -15,6 +15,8 @@ The dataset contains the daily number of webpage visits for several Wikipedia we
 (if you are not familiar with Wikipedia, feel free to check it out here https://en.wikipedia.org/wiki/Main_Page)
 The dataset includes daily page visit counts for 1,500 Wikipedia pages starting on 2016-01-01 until 2016-12-31.
 
+Dataset source: Kaggle.com
+
 
 ## Project Questions:
 1. what were some of the most trending search topics on Wikipedia on the following days? Using the provided dataset, can you show some evidence to support your answer?
@@ -25,7 +27,7 @@ b- November 8, 2016
 
 3. Which page experienced the biggest increase in page visits during 2016?
 
-4. Wikipedia pages could be written in several languages. How many languages are represented in this dataset. What proportion of the pages does each language represent? 
+4. Wikipedia pages could be written in several languages. How many languages are represented in this dataset? What proportion of the pages does each language represent? 
 - Hint: One may infer which language a page is written in based on the page name
 e.g. Special:Search_fr.wikipedia.org_all-access_all-agents is written in French and Special:Book_en.wikipedia.org_all-access_spider is written in English.
 
