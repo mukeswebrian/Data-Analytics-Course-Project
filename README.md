@@ -3,7 +3,7 @@
 For the project, you are provided with a dataset to analyze using the skills learned in the course.
 
 When working on the project, you are encouraged to consider the different stages of the data life cycle
-and the importance using the right tools to efficiently answer as many of the project questions as you can. 
+and the importance of using the right tools to efficiently answer as many of the project questions as you can. 
 
 Feel free to be creative in how you present your findings to answer each project question. At the very minimum,
 you are expected to create a dashboard in Tableau Public with at least 3 different visualizations to help answer 
