@@ -12,7 +12,7 @@ some of the project questions.
 
 ## Dataset description:
 The dataset contains the daily number of webpage visits for several Wikipedia webpages. 
-(if you are not familiar with Wikipedia, feel free to check it out here https://en.wikipedia.org/wiki/Main_Page)
+(if you are not familiar with Wikipedia, you can check it out here https://en.wikipedia.org/wiki/Main_Page).
 The dataset includes daily page visit counts for 1,500 Wikipedia pages starting on 2016-01-01 until 2016-12-31.
 
 Dataset source: Kaggle.com
