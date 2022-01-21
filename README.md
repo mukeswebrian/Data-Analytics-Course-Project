@@ -25,10 +25,10 @@ b- November 8, 2016
 
 3. Which page experienced the biggest increase in page visits during 2016?
 
-4. Wikipedia pages could be written in several languages. 
+4. Wikipedia pages could be written in several languages. How many languages are represented in this dataset. What proportion of the pages does each language represent? 
 - Hint: One may infer which language a page is written in based on the page name
 e.g. Special:Search_fr.wikipedia.org_all-access_all-agents is written in French and Special:Book_en.wikipedia.org_all-access_spider is written in English.
-How many languages are represented in this dataset. What proportion of the pages does each language represent?
+
 
 5. Based on the provided dataset, which day(s) of the week is/are the most popular for visiting wikipedia?
 
