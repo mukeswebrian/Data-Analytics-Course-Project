@@ -6,7 +6,7 @@ When working on the project, you are encouraged to consider the different stages
 and the importance of using the right tools to efficiently answer as many of the project questions as you can. 
 
 Feel free to be creative in how you present your findings to answer each project question. At the very minimum,
-you are expected to create a dashboard in Tableau Public with at least 3 different visualizations to help answer 
+you are expected to create a dashboard in Tableau Public (https://public.tableau.com/en-us/s/) with at least 3 different visualizations to help answer 
 some of the project questions.
 
 
