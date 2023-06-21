@@ -17,6 +17,41 @@ The dataset includes daily page visit counts for 1,500 Wikipedia pages starting 
 
 Dataset source: Kaggle.com
 
+# Data Life Cycle - Guided Exercises:
+
+## Plan
+1. Assume that you are working for the Wikipedia company as a data analyst, what are some potentially valuable business insights that can be obtained from the provided Wikipedia dataset?
+2. What challenges do you anticipate will arise when trying to analyse the dataset provided? For each challenge, outline a potential solution for overcoming the challenge.
+3. What are some risks or limitations of relying on the dataset provided to inform decisions about the Wikipedia platform?
+
+## Collect
+1. Imagine you had a chance to talk to the team responsible for collecting the dataset provided, what are some key questions you would ask them about how the data was collected in order to gain a better understanding of the underlying assumptions in the data?
+2. The data file provided is a single extract (batch) for a 1 year period. Now imagine you needed to track the top trending topics based on page visits on a daily basis, what might be a better way of accessing the data besides an Excel file?
+3. A colleague has proposed that you should store the provided data into a SQL database so that you can run queries on it. What are some challenges you anticipate to encounter? How might you overcome these challenges?
+
+## Process
+1. In the current dataset, each row represents a unique page and the number of visits the page received for each day of the year. Write a Python script to transform the data such that it has only three columns ie. page_name, date, and number of visits.  
+In the transformed dataset, each page will have multiple row entries, each corresponding to a different day of the year.
+2. Compare the transformed dataset to the original one provided, which one is easier to analyze? Why?
+3. Modify your script such that the transformed dataset contains the following additional columns: page_language, access_device_type, day_of_the_week, month
+
+## Analyze
+1. Comment on the distribution of daily page visits based on the dataset provided. Are there outliers? You are encouraged to use data visualizations to answer this question.
+2. For each of the criteria below, identify 2 pages that meet the criterion, and create a time series plot of the pages' visits throughout the year.
+    - Criterion 1: Relatively steady number of visits throughout the year.
+    - Criterion 2: Significantly higher number of visits later in the year compared to earlier in the year.
+    - Criterion 3: Significantly lower number of visits later in the year compared to earlier in the year.
+3. Identify some page pairs that have a high correlation in the number of visits. Use a scatter plot and/or a time series plot to illustrate these correlations.
+
+## Share
+1. Create a dashboard that allows a user to easily visualize the following:
+    - The top 20 pages based on number of visits.
+    - The user should be able to filter and view the top pages for any day of the year.
+    - The user should also able to filter the list based on the page.
+    - The user should also be able to filter the list based on the device type used to visit the page.
+    
+2. Create a dashboard that allows a user to easily visualize a time series plot of the visits for an arbitrary page.
+
 
 ## Project Questions:
 1. what were some of the most trending search topics on Wikipedia on the following days? Using the provided dataset, can you show some evidence to support your answer?
